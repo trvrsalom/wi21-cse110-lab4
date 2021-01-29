@@ -3,11 +3,11 @@
 
 Screenshot showing the breakpoint and watch expressions:
 
-![debugger](/Users/trevor/projects/wi21-cse110-lab4/part3/debugger.png)
+![debugger](debugger.png)
 
 The bug was that both num1 and num2 are string values, and therefore the `+` operator performs a string concatenation. The fix would be to cast them to numbers, as shown:
 
-![fix](/Users/trevor/projects/wi21-cse110-lab4/part3/fix.png)
+![fix](fix.png)
 
 ## DevTools - Network Tab
 
